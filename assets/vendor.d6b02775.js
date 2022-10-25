@@ -1,0 +1,1 @@
+var i=n;function n(r,f){if(!Array.isArray(r))throw new Error("expected an array");if(r.length<2)return r;for(var h=f&&f.shuffleAll,l=r.slice(),e=r.length,a,t;--e>0;){do a=Math.floor(Math.random()*(e+1));while(h&&a==e);(!h||a!=e)&&(t=l[e],l[e]=l[a],l[a]=t)}return l}export{i as a};
